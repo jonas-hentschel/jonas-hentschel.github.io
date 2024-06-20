@@ -20,3 +20,24 @@ During this project I learned a lot about Machine Learning and the concepts that
 <img src="assets/img/thesis1.gif" alt="drawing" width="320"/>
 <img src="assets/img/thesis2.png" alt="drawing" width="320"/>
 
+### Computer vision + path finding algorithm
+
+In this project I simulated a very basic grocery store environment. The goal was to automatically detect certain products through computer vision, and then combine this with a path finding algorithm to find the shortest path through the simulated supermarket. In the video below you can see this project in action.
+
+{% include youtube.html id="uVd-auGlEss" %}<br />
+
+To achieve this we hand labeled and trained a custom dataset which can be seen in the video below:
+
+{% include youtube.html id="81_hhbU-K5w" %}<br />
+
+### Space in Space
+
+In this project we were tasked to create an interactive experience that is driven by data that impacts our modern world. We chose to handle the topic of space debris and its problems. Below you can see a Video made by me that illustrates the design process:
+
+{% include youtube.html id="QgUSeOxs_Nc" %}<br />
+
+### Pill Detection
+
+For this project we set out to design a healthcare related solution. We found the problem of elderly people with impaired cognitive function and vision having a hard time finding the right medicine and/or getting confused between them. We therefore came up with a device where the pills can be inserted in any random order and are automatically sorted into various storage compartments. The device then dispenses the pills at the right amount and time set by a medical professional. Additionally the device recognises if the pill has been taken, if the pill is not taken for some time it will notify medical help. In the video we made you can see how the prototype works.
+
+{% include youtube.html id="2Df-1IqZOBo" %}<br />
