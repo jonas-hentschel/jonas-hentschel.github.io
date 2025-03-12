@@ -1,4 +1,44 @@
 # Projects
+
+### Accenture Industry X Industrial Design Internship
+
+During my internship at Accenture IXID, I worked on several challenging projects as part of the embedded engineering team:
+
+#### Automated Parcel Documentation System
+Developed a sophisticated computer vision system for automated parcel documentation in an industrial setting. Key achievements:
+- Implemented an advanced image stitching pipeline using OpenCV for capturing complete parcel views
+- Created calibration systems for precise camera timing and lens distortion correction
+- Built a robust computer vision pipeline for image processing and 3D model generation
+
+#### Computer Vision for Dutch Design Week
+Developed two AI-powered demonstrations:
+- Created a computer vision model for identifying 3D-printed airplane parts, showcasing maintenance automation possibilities
+- Implemented a computer vision system enabling a collaborative robot (cobot) to interpret hand-drawn instructions and stack objects accordingly
+
+#### Industrial Configuration Tool Development
+Developed backend and cloud functions for a production-level configuration tool used in shipyard operations:
+- Implemented scalable cloud architecture for industrial-grade reliability
+- Created robust error-checking systems for critical HMI configurations
+- Collaborated closely with domain experts to optimize the tool for expert users
+
+Through these projects, I gained extensive experience in:
+- Industrial-grade software development
+- Computer vision and AI implementation
+- Hardware-software integration
+- Working with domain experts in industrial settings
+
+### Tractiv
+
+Tractiv is a startup company my team and I created during our bachelor. We made an interactive assistant for handball coaches that utilizes AI and Computer Vision to support them. The system utilised the yolov4 framework and that Nvidia Jetson Platform. Below you can find two Videos explaining the Idea. Both Videos were entirely made by us.
+
+{% include youtube.html id="YTaoM4S3Sag" %}<br />
+{% include youtube.html id="nfFGxnm_Yws" %}<br />
+
+As we saw potential in the idea we decided to pursue it further and participate in the UT Challenge, which is an annual startup contest hosted at the University of Twente. Here we worked with the Dutch Police, Bronkhorst and Novel T to further improve our idea. In the end we managed to reach the grand final beating out over 80 other competitors. <br /> 
+You can find a link to our UT challenge profile here: [UT Challenge Tractiv](https://2021.utchallenge.nl/candidate/details/18372)
+
+
+
 ### Tractiv
 
 Tractiv is a startup company my team and I created during our bachelor. We made an interactive assistant for handball coaches that utilizes AI and Computer Vision to support them. The system utilised the yolov4 framework and that Nvidia Jetson Platform. Below you can find two Videos explaining the Idea. Both Videos were entirely made by us.
@@ -41,3 +81,4 @@ In this project we were tasked to create an interactive experience that is drive
 For this project we set out to design a healthcare related solution. We found the problem of elderly people with impaired cognitive function and vision having a hard time finding the right medicine and/or getting confused between them. We therefore came up with a device where the pills can be inserted in any random order and are automatically sorted into various storage compartments. The device then dispenses the pills at the right amount and time set by a medical professional. Additionally the device recognises if the pill has been taken, if the pill is not taken for some time it will notify medical help. In the video we made you can see how the prototype works.
 
 {% include youtube.html id="2Df-1IqZOBo" %}<br />
+
