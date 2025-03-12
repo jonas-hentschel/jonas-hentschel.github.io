@@ -13,7 +13,17 @@ Developed a sophisticated computer vision system for automated parcel documentat
 #### Computer Vision for Dutch Design Week
 Developed two AI-powered demonstrations:
 - Created a computer vision model for identifying 3D-printed airplane parts, showcasing maintenance automation possibilities
+<img src="assets/img/DDW.png" alt="drawing" width="320"/>
 - Implemented a computer vision system enabling a collaborative robot (cobot) to interpret hand-drawn instructions and stack objects accordingly
+<img src="assets/img/COBOT.jpg" alt="drawing" width="320"/>
+
+#### NFC Media Player
+Developed a polished showcase product that demonstrates IXID's engineering capabilities:
+- Designed and implemented an interactive NFC-based media playback system
+- Created a cloud-integrated statistics dashboard for monitoring media player usage across multiple locations
+- Developed an intuitive companion app for device setup and status monitoring
+- Implemented sophisticated LED feedback systems for enhanced user experience
+<img src="assets/img/NFC.jpg" alt="drawing" width="320"/>
 
 #### Industrial Configuration Tool Development
 Developed backend and cloud functions for a production-level configuration tool used in shipyard operations:
@@ -26,18 +36,6 @@ Through these projects, I gained extensive experience in:
 - Computer vision and AI implementation
 - Hardware-software integration
 - Working with domain experts in industrial settings
-
-### Tractiv
-
-Tractiv is a startup company my team and I created during our bachelor. We made an interactive assistant for handball coaches that utilizes AI and Computer Vision to support them. The system utilised the yolov4 framework and that Nvidia Jetson Platform. Below you can find two Videos explaining the Idea. Both Videos were entirely made by us.
-
-{% include youtube.html id="YTaoM4S3Sag" %}<br />
-{% include youtube.html id="nfFGxnm_Yws" %}<br />
-
-As we saw potential in the idea we decided to pursue it further and participate in the UT Challenge, which is an annual startup contest hosted at the University of Twente. Here we worked with the Dutch Police, Bronkhorst and Novel T to further improve our idea. In the end we managed to reach the grand final beating out over 80 other competitors. <br /> 
-You can find a link to our UT challenge profile here: [UT Challenge Tractiv](https://2021.utchallenge.nl/candidate/details/18372)
-
-
 
 ### Tractiv
 
