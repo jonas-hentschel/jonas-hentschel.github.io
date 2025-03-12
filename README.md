@@ -13,9 +13,11 @@ Developed a sophisticated computer vision system for automated parcel documentat
 #### Computer Vision for Dutch Design Week
 Developed two AI-powered demonstrations:
 - Created a computer vision model for identifying 3D-printed airplane parts, showcasing maintenance automation possibilities
-<img src="assets/img/DDW.png" alt="drawing" width="320"/>
+
+<img src="assets/img/DDW.png" alt="drawing"/>
 - Implemented a computer vision system enabling a collaborative robot (cobot) to interpret hand-drawn instructions and stack objects accordingly
-<img src="assets/img/COBOT.jpg" alt="drawing" width="320"/>
+
+<img src="assets/img/COBOT.jpg" alt="drawing"/>
 
 #### NFC Media Player
 Developed a polished showcase product that demonstrates IXID's engineering capabilities:
@@ -23,7 +25,8 @@ Developed a polished showcase product that demonstrates IXID's engineering capab
 - Created a cloud-integrated statistics dashboard for monitoring media player usage across multiple locations
 - Developed an intuitive companion app for device setup and status monitoring
 - Implemented sophisticated LED feedback systems for enhanced user experience
-<img src="assets/img/NFC.jpg" alt="drawing" width="320"/>
+
+<img src="assets/img/NFC.jpg" alt="drawing"/>
 
 #### Industrial Configuration Tool Development
 Developed backend and cloud functions for a production-level configuration tool used in shipyard operations:
