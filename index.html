@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonas Hentschel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+    
+    <div class="layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="assets/img/headshot.jpeg" alt="Jonas Hentschel" class="profile-image">
+                <h1>Jonas Hentschel</h1>
+                <p class="tagline">Engineer & Photographer</p>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#photography">Photography</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com" class="contact-link" title="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
+                <a href="https://github.com/jonas-hentschel" target="_blank" class="contact-link" title="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank" class="contact-link" title="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://zhvisuals.de" target="_blank" class="contact-link" title="Photography Portfolio">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                </a>
+            </div>
+        </aside>
+        
+        <!-- Main Content -->
+        <main class="content">
+            <section id="projects">
+                <h2>Projects</h2>
+                
+                <article class="project">
+                    <h3>Accenture Industry X Industrial Design Internship</h3>
+                    <p>During my internship at Accenture IXID, I worked on several challenging projects as part of the embedded engineering team:</p>
+                    
+                    <div class="project-item">
+                        <h4>Automated Parcel Documentation System</h4>
+                        <p>Developed a sophisticated computer vision system for automated parcel documentation in an industrial setting. Key achievements:</p>
+                        <ul>
+                            <li>Implemented an advanced image stitching pipeline using OpenCV for capturing complete parcel views</li>
+                            <li>Created calibration systems for precise camera timing and lens distortion correction</li>
+                            <li>Built a robust computer vision pipeline for image processing and 3D model generation</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-item">
+                        <h4>Computer Vision for Dutch Design Week</h4>
+                        <p>Developed two AI-powered demonstrations:</p>
+                        <ul>
+                            <li>Created a computer vision model for identifying 3D-printed airplane parts, showcasing maintenance automation possibilities</li>
+                        </ul>
+                        <div class="image-container">
+                            <img src="assets/img/DDW.png" alt="Dutch Design Week Project" class="project-image">
+                        </div>
+                        <ul>
+                            <li>Implemented a computer vision system enabling a collaborative robot (cobot) to interpret hand-drawn instructions and stack objects accordingly</li>
+                        </ul>
+                        <div class="image-container">
+                            <img src="assets/img/COBOT.jpg" alt="COBOT Project" class="project-image">
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <h4>NFC Media Player</h4>
+                        <p>Developed a polished showcase product that demonstrates IXID's engineering capabilities:</p>
+                        <ul>
+                            <li>Designed and implemented an interactive NFC-based media playback system</li>
+                            <li>Created a cloud-integrated statistics dashboard for monitoring media player usage across multiple locations</li>
+                            <li>Developed an intuitive companion app for device setup and status monitoring</li>
+                            <li>Implemented sophisticated LED feedback systems for enhanced user experience</li>
+                        </ul>
+                        <div class="image-container">
+                            <img src="assets/img/NFC.jpg" alt="NFC Media Player" class="project-image">
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <h4>Industrial Configuration Tool Development</h4>
+                        <p>Developed backend and cloud functions for a production-level configuration tool used in shipyard operations:</p>
+                        <ul>
+                            <li>Implemented scalable cloud architecture for industrial-grade reliability</li>
+                            <li>Created robust error-checking systems for critical HMI configurations</li>
+                            <li>Collaborated closely with domain experts to optimize the tool for expert users</li>
+                        </ul>
+                        <p>Through these projects, I gained extensive experience in:</p>
+                        <ul>
+                            <li>Industrial-grade software development</li>
+                            <li>Computer vision and AI implementation</li>
+                            <li>Hardware-software integration</li>
+                            <li>Working with domain experts in industrial settings</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <h3>Tractiv</h3>
+                    <p>Tractiv is a startup company my team and I created during our bachelor. We made an interactive assistant for handball coaches that utilizes AI and Computer Vision to support them. The system utilised the yolov4 framework and that Nvidia Jetson Platform.</p>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YTaoM4S3Sag" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nfFGxnm_Yws" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <p>As we saw potential in the idea we decided to pursue it further and participate in the UT Challenge, which is an annual startup contest hosted at the University of Twente. Here we worked with the Dutch Police, Bronkhorst and Novel T to further improve our idea. In the end we managed to reach the grand final beating out over 80 other competitors.</p>
+                    <p>You can find a link to our UT challenge profile here: <a href="https://2021.utchallenge.nl/candidate/details/18372" target="_blank">UT Challenge Tractiv</a></p>
+                </article>
+
+                <article class="project">
+                    <h3>Active Learning (Thesis project)</h3>
+                    <p>For my bachelor thesis in Creative Technology I worked on an active learning algorithm in the point cloud environment. This project was part of the Ambient Intelligence Research Group at Saxion University.</p>
+                    <p><a href="https://essay.utwente.nl/94542/1/Hentschel_BA_EEMCS.pdf" target="_blank">Publication</a></p>
+                    <p>During this project I learned a lot about Machine Learning and the concepts that surround it. The goal of this project was to create a computer vision algorithm that detects railway infrastructure in 3D point cloud scans. This is done to help workers with maintenance. My part in this project was to use active learning to decrease the amount of labelled data necessary. I was able to achieve a precision of upwards of 75% with only 5% labelled data.</p>
+                    <div class="image-container multi-image">
+                        <img src="assets/img/thesis1.gif" alt="Thesis Project GIF" class="project-image">
+                        <img src="assets/img/thesis2.png" alt="Thesis Project Image" class="project-image">
+                    </div>
+                </article>
+
+                <article class="project">
+                    <h3>Computer vision + path finding algorithm</h3>
+                    <p>In this project I simulated a very basic grocery store environment. The goal was to automatically detect certain products through computer vision, and then combine this with a path finding algorithm to find the shortest path through the simulated supermarket.</p>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/uVd-auGlEss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <p>To achieve this we hand labeled and trained a custom dataset which can be seen in the video below:</p>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/81_hhbU-K5w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <h3>Space in Space</h3>
+                    <p>In this project we were tasked to create an interactive experience that is driven by data that impacts our modern world. We chose to handle the topic of space debris and its problems.</p>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QgUSeOxs_Nc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <h3>Pill Detection</h3>
+                    <p>For this project we set out to design a healthcare related solution. We found the problem of elderly people with impaired cognitive function and vision having a hard time finding the right medicine and/or getting confused between them. We therefore came up with a device where the pills can be inserted in any random order and are automatically sorted into various storage compartments. The device then dispenses the pills at the right amount and time set by a medical professional. Additionally the device recognises if the pill has been taken, if the pill is not taken for some time it will notify medical help.</p>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2Df-1IqZOBo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </article>
+            </section>
+
+            <section id="photography">
+                <h2>Photography</h2>
+                <div class="photography-intro">
+                    <div class="photography-text">
+                        <p>Beyond my technical projects, I'm passionate about photography. I capture moments, emotions, and perspectives through my lens, exploring the intersection of art and technology.</p>
+                        <p>My photographic style focuses on finding beauty in both natural landscapes and urban environments. I'm particularly drawn to unique lighting conditions, architectural details, and capturing the essence of a place or moment.</p>
+                        <h3>My Approach</h3>
+                        <p>I believe photography is about more than just technical skill—it's about developing an eye for composition, light, and storytelling. Each image represents a unique perspective and a moment in time that can never be exactly replicated.</p>
+                        <div class="photography-tags">
+                            <span class="tag">Landscape</span>
+                            <span class="tag">Urban</span>
+                            <span class="tag">Architecture</span>
+                            <span class="tag">Minimalist</span>
+                            <span class="tag">Light & Shadow</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-cta">
+                    <h3>Explore My Complete Portfolio</h3>
+                    <p>Visit my dedicated photography website to explore my full collection of work, including galleries organized by theme and location.</p>
+                    <div class="portfolio-button">
+                        <a href="https://zhvisuals.de" target="_blank" class="button">View Photography Portfolio</a>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <p>&copy; 2025 Jonas Hentschel</p>
+            </footer>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
