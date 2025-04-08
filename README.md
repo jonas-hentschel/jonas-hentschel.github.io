@@ -83,3 +83,13 @@ For this project we set out to design a healthcare related solution. We found th
 
 {% include youtube.html id="2Df-1IqZOBo" %}<br />
 
+## Photography
+
+Beyond my technical projects, I'm passionate about photography. I capture moments, emotions, and perspectives through my lens, exploring the intersection of art and technology.
+
+<div style="text-align: center; margin: 30px 0;">
+  <a href="https://zhvisuals.de" target="_blank" style="display: inline-block; background-color: #4CAF50; color: white; padding: 15px 25px; text-decoration: none; border-radius: 4px; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: all 0.3s ease;">
+    View Photography Portfolio
+  </a>
+</div>
+
